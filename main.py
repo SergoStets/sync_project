@@ -29,7 +29,7 @@ def get_samples(conn):
     with conn.cursor() as cur:
         cur.execute("""
             SELECT id, file_name, created_at, name, comment, call_id, is_active, to_delete, sample_type_id 
-            FROM dbo.machine_samples
+            FROM *****************
             WHERE is_active = true;
         """)
         return cur.fetchall()
@@ -37,7 +37,7 @@ def get_samples(conn):
 def insert_sample(conn, sample):
     with conn.cursor() as cur:
         cur.execute("""
-            INSERT INTO dbo.machine_samples
+            INSERT INTO *****************
             (id, file_name, created_at, name, comment, call_id, is_active, to_delete, sample_type_id)
             VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
             ON CONFLICT (id) DO NOTHING;
