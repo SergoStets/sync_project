@@ -45,23 +45,23 @@ sync_project/
 ```json
 {
   "db1": {
-    "host": "192.168.2.171",
-    "port": 5433,
-    "dbname": "pom",
-    "user": "postgres",
-    "password": "pompostgresFA22Sw"
+    "host": "",
+    "port": ,
+    "dbname": "",
+    "user": "",
+    "password": ""
   },
   "db2": {
-    "host": "192.168.2.181",
-    "port": 5433,
-    "dbname": "pom",
-    "user": "postgres",
-    "password": "pompostgresFA22Sw"
+    "host": "",
+    "port": ,
+    "dbname": "",
+    "user": "",
+    "password": ""
   },
   "ssh": {
-    "user": "cust",
-    "password": "cust01",
-    "remote_path": "/opt/dialer/service-isansweredmashine/samples"
+    "user": "",
+    "password": "",
+    "remote_path": ""
   }
 }
 ```
